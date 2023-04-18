@@ -1,0 +1,133 @@
+.formacao{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.formacao .subtitulo{
+  color: #dd9147;
+}
+
+.formacao-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: black;
+}
+
+.formacao-texto strong{
+  color: #b66919;
+  text-transform: uppercase;
+}
+
+.empresa{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #dd9147;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+  gap: 10px 20px;
+}
+
+
+.empresa::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#dd9147, #f3d6ba);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-ano{
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  color: #525252;
+  font-size: 0.875rem;
+  text-align: right;
+  width: 80px;
+}
+
+.empresa-titulo{
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+.empresa-texto{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: black;
+}
+
+.empresa-habilidades{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+  color: black;
+}
+
+.empresa-habilidades li{
+  font-size: .875rem;
+  line-height: 1.4;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+.formacao-extra h3{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.formacao-extra li{
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span{
+  color: #000;
+}
+
+@media (max-width: 800px) {
+  .formacao{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formacao .subtitulo{
+    color: #141414;
+  }
+  .formacao-texto{
+    font-size: 1.25rem;
+  }
+  .empresa-ano{
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa{
+    grid-template-columns: 1fr;
+  }
+}
