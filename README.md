@@ -1,10 +1,10 @@
 # Portfólio
 Bem-vindo ao meu repositório do GitHub! Aqui você encontrará o código fonte do meu site pessoal, que funciona como meu portfólio.
 
-## Descrição
+## Descrição:
 Meu site é uma plataforma onde compartilho informações sobre mim, meus projetos e minhas habilidades. É uma maneira de apresentar meu trabalho para potenciais empregadores, clientes ou colaboradores.
 
-## Recursos
+## Recursos:
 - Página inicial: Uma breve introdução sobre mim e meus objetivos profissionais.
 - Projetos: Uma seção onde mostro alguns dos projetos em que trabalhei. Cada projeto possui uma descrição, capturas de tela e links relevantes.
 - Habilidades: Uma lista das habilidades que possuo, destacando minhas áreas de especialização.
@@ -16,7 +16,7 @@ Meu site é uma plataforma onde compartilho informações sobre mim, meus projet
 - CSS3
 - JavaScript
 
-## Contato
+## Contato:
 Se você tiver alguma dúvida ou quiser entrar em contato comigo, pode me encontrar nas seguintes redes sociais:
 
 LinkedIn: https://www.linkedin.com/in/raiane-gomes-b77462229
