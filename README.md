@@ -9,17 +9,21 @@ Meu site é uma plataforma onde compartilho informações sobre mim, meus projet
 - Projetos: Uma seção onde mostro alguns dos projetos em que trabalhei. Cada projeto possui uma descrição, capturas de tela e links relevantes.
 - Habilidades: Uma lista das habilidades que possuo, destacando minhas áreas de especialização.
 - Contato: Informações de contato para que as pessoas possam entrar em contato comigo facilmente.
-- Tecnologias Utilizadas:
 
-HTML5
-CSS3
-JavaScript
+## Tecnologias Utilizadas:
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Contato
 Se você tiver alguma dúvida ou quiser entrar em contato comigo, pode me encontrar nas seguintes redes sociais:
 
 LinkedIn: https://www.linkedin.com/in/raiane-gomes-b77462229
-E-mail: raianegms573@gmail.com
-Obrigada por visitar meu repositório! Espero que goste do meu site.
 
+E-mail: raianegms573@gmail.com
+
+## ACESSE ESSE LINK DO GITHUB PAGES:
 https://raiane11.github.io/Meu_Portfolio/
+
+Obrigada por visitar meu repositório! Espero que goste do meu site.
